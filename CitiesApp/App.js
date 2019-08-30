@@ -52,7 +52,7 @@ export default class App extends Component {
       cities = JSON.parse(cities);
       this.setState({ cities });
     } catch (e) {
-      console.log('error from AsyncStorage: ', e);
+      console.log('error from AsyncStorage: ', e)
     }
   }
 
