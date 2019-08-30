@@ -21,7 +21,8 @@ export default class City extends Component {
                 color: 'white',
                 fontSize: 20,
                 fontWeight: '400'
-            }
+            },
+            headerTintColor: 'white',
         }
     }
 
